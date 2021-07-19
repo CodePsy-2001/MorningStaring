@@ -363,8 +363,8 @@ label ch1_4:
     n "......"
     n "잘 다녀와!"
 
-    play sound "sfx kwak.ogg" with vpunch
-    s "야, 잠깐!! 돈 어디서 난 거야!"
+    play sound "sfx kwak.ogg"
+    s "야, 잠깐!! 돈 어디서 난 거야!" with vpunch
     n "레이디, 그런 건 신경쓰지 말라구."
     n "김비서, 얼른 그녀를 태워다 줘. 부드러운 운행 부탁해. 최고급 다이아몬드를 다루듯... 알지?"
 
@@ -382,8 +382,8 @@ label ch1_4:
     n "여성청결제. 딸기향. 기존 구매내역 3회."
 
     # 얼굴 움푹 들어간 모니터
-    play sound "sfx uzikun.ogg" with vpunch
-    s "야이 미친새끼야!!!"
+    play sound "sfx uzikun.ogg"
+    s "야이 미친새끼야!!!" with vpunch
     n "후훗, 우리 자기 부끄러워?"
     n "폭력을 다 행사하고 말야.{w} 조금... 아프달까?"
 

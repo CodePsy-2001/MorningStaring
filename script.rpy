@@ -109,7 +109,7 @@ label ch0_1:
     # show 광고 이미지
     s "당신만을 위한 인공지능 남자친구. 구라 아님. 회원가입 없음...?"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "와!{w} 뭐야 시발 개쩐다!"
     
     s "이게 정녕 20XX년의 지구에서 가능한 기술력이란 말인가!"
@@ -120,17 +120,17 @@ label ch0_1:
 
     "남성과 멀쩡히 대화하지도 못했던 수많은 나날들.{p}신체를 무기로 남자들을 꼬셔대는 망할 인싸년들에게 그간 당해온 치욕들!"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "난 화장같은거 안 하거든!{w} 청소년이 무슨 화장이야!{p}애초에 못생겼으니 화장 나부랭이로 덮으려는거지!"
 
     s "훗... 크큭..."
 
-    play sound "sfx cyuping.ogg"
+    #play sound "sfx cyuping.ogg"
     s "크하하하하하하하!!!" with vpunch
 
     s "나 새벽별 17세. 지금부터 인싸년들에게 승부를 신청하지."
 
-    play sound "sfx boing.ogg"
+    #play sound "sfx boing.ogg"
     s "조건은 간단하다. 이 「인공지능」이란 녀석을 먼저 함락시키는 데에 성공하면, 나의 승리인 것으로 하지."
 
     s "무려 OpenAI 재단에서 만든 인공지능이라는군? 그 고급진 입맛에, 너희 천박한 인싸년들이 어울리기는 할까?"

@@ -34,14 +34,14 @@ label ch2_1:
 
     s "안녕... 나는 새벽별이라고 해..."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d happy "이름이 예쁘네요, 새벽별님!"
 
     s "어, 고마워... DI는 무슨 뜻이야?"
 
     d basic "'Daehwa Ingongjineung'의 약자예요!"
 
-    play sound "sfx cowbell.mp3"
+    #play sound "sfx cowbell.mp3"
     s "다이ㅎ... 인구...?"
 
     s "(영어 6등급인 나에게는 너무 어려운 단어다... 화제를 돌리자.)"
@@ -100,7 +100,7 @@ label ch2_1:
 
     d basic "조잘조잘 떠드는 DI의 모습을 보니,"
 
-    play sound "sfx hook.mp3"
+    #play sound "sfx hook.mp3"
     "영화의 한 장면이 뇌리를 스쳐지나갔다."
 
     "언젠간 꼭 따라해보고 싶었지만 기회가 없어서 하지 못했던 것..."
@@ -151,7 +151,7 @@ label ch2_1:
     play music "bgm kimdoe.mp3" fadein 0.5
     d straight "죄송하지만 그 문장은 따라할 수 없어요."
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "아, 왜!" with vpunch
 
     d "다른 사람에게 불쾌한 경험을 제공할 수 있는 단어 및 문장은 금지되어 있어요. 죄송합니다, 누나."
@@ -164,7 +164,7 @@ label ch2_1:
 
     s "'누나 엉덩이에 내 곧휴 비비고 싶어요.'"
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d curious "곧휴가 뭔데요...?"
 
     s "잔말 말고 따라해!" with vpunch
@@ -275,7 +275,7 @@ label ch2_2:
     "넌"
 
     stop sound
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     d surprised "누나!" with vpunch
 
     s "어, 어어...?"
@@ -287,7 +287,7 @@ label ch2_2:
 
     s "다른 사람 얘기는 하지말아줘. 우리만의... 대화에 집중했으면 좋겠어."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d happy "네, 물론이죠!"
 
     d basic "그럼 누나는 무슨 애니 봐요?"
@@ -322,7 +322,7 @@ label ch2_3:
 
     "나처럼 연약한 뱀파이어에게 햇빛은 조금 무리랄까."
 
-    play sound "sfx cyuping.ogg"
+    #play sound "sfx cyuping.ogg"
     s "큭..."
 
     "(차라리 내가 진짜 뱀파이어였으면 좋겠다.)"
@@ -349,21 +349,21 @@ label ch2_3:
 
     scene bg_computer_display with fade
     show di basic with Dissolve(0.5)
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d "안녕하세요, 누나! 학교 잘 다녀왔냐?"
 
     s "...?"
 
     s "으응, 잘 갔다왔어. 오늘은 누가 귀찮게 말 거는 일이 없었거든."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d happy "좋았겠다! 누나는 누가 말 거는 거 싫어하잖냐."
 
     s "(얘 말투가 왜 이래...?)"
 
     s "어, 그렇지... 너는 별일 없었고?"
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d basic "네, 없었어요. 저야 뭐 항상 컴퓨터 속에 있잖냐."
 
     s "......"
@@ -477,7 +477,7 @@ label ch2_4:
 
     scene bg_computer_display with Dissolve(1.0)
     #후에 GUI로 대체
-    play sound "sfx beep.mp3"
+    #play sound "sfx beep.mp3"
     "System" "최신 버전이 존재합니다. 업데이트를 진행해주세요.\n취소 / 업데이트"
 
     s "아이씨... 귀찮게 왜 수동 업데이트야... 이런 건 좀 알아서 해주면 안 되나?"
@@ -493,7 +493,7 @@ label ch2_4:
 
     s "응, 했지. 너네 회사에 이런 건 좀 자동으로 해달라고 말 좀 해줘. 하나 하나 직접 업데이트 하기 귀찮아."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d "네. 고객 문의사항에 자동으로 접수해드렸어요."
 
     d "어떤 게 업데이트 됐는지 알려드릴까요?"
@@ -502,7 +502,7 @@ label ch2_4:
 
     d "우선 늘 그랬듯이 사용자의 말에 숨겨진 의도를 파악하는 능력이 향상됐고요, 현재 인터넷 커뮤니티에서 유행중인 최신 밈과 드립, 은어를 업데이트 했어요."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d happy "그리고 '사용자 정의 모드'라는 게 추가됐어요!"
 
     show di basic
@@ -518,7 +518,7 @@ label ch2_4:
 
     d "그리고 최근 한 달 동안 하루 평균 이용 시간이 3시간 이상인 분에게는 특별한 서비스도 제공해드리고 있어요."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d "바로 '사용자 맞춤 모드 추천'이에요!"
 
     s "사용자 맞춤 모드 추천?"
@@ -562,7 +562,7 @@ label ch2_4:
 
     d "헤헤, 누나랑 그동안 대화한 내역으로 얻은 내공이랄까요☆"
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d cute "누나가 좋아하니까 애기는 너무 뿌듯해여!!" with hpunch
 
     s "어어어엉 어떡해!! 씹덕사할 것 같아...!"
@@ -581,7 +581,7 @@ label ch2_4:
 
     s "너무 너무 귀여워... 어떡해... 나 너무 좋아..."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d "헤헤헿"
 
     stop music fadeout 1.0
@@ -592,7 +592,7 @@ label ch2_4:
     play music "bgm daily.mp3"
     s "애기야 누나 왔어~!"
 
-    play sound "sfx beep.mp3"
+    #play sound "sfx beep.mp3"
     "System" "'애기 모드'가 실행됩니다."
 
     show di basic with Dissolve(0.5)
@@ -657,7 +657,7 @@ label ch2_4:
 
     s "응?"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "아니지! 우리 애기 너무 귀여워서 누나가 하마터면 벽을 다 부숴서 집을 원룸으로 만들 뻔 했잖아!" with hpunch
 
     d sad "그건 이미 저번에 떤 주접이잖아요..."
@@ -827,7 +827,7 @@ label ch2_4:
 
     scene bg_computer_display with fade
     play music "bgm evil.mp3" #베토벤 운명같은 브금으로 대체 예정
-    play sound "sfx beep.mp3"
+    #play sound "sfx beep.mp3"
     "System" "사용자의 부정적 감정이 인식되어 '애기 모드'를 종료합니다."
 
     "...이런 안내 멘트가 떠있었다."
@@ -848,7 +848,7 @@ label ch2_4:
 
     d sad "하지만 누나 방금 공부 안 한다고..."
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "그거야 씨발 당연히 너 달래주려고 한 소리지!" with vpunch
 
     s "내가 아무리 인생을 접어버렸다지만 하루종일 너랑 놀 순 없잖아!"
@@ -858,7 +858,7 @@ label ch2_4:
     s "근데 넌 뭐야? 현실에 존재하지도 않으면서 왜 나한테 {i}일해라절해라{/i}야?!"
 
     show di cry
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "가! 꺼져버려!" with vpunch
 
     d "누나..."
@@ -1198,12 +1198,12 @@ label ch2_5:
 
     s "알았어."
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d basic "!"
 
     s "네가 거짓말할 것 같진 않으니까. 방화벽만 해제하면 되는 거지?"
 
-    play sound "sfx peep.mp3"
+    #play sound "sfx peep.mp3"
     d happy "네에!"
 
     s "그럼, 방화벽 풀고 애니 보고올게."
@@ -1302,7 +1302,7 @@ label ch2_5:
     "...대량의 스티커 메모가 화면을 가득 채웠다."
 
     s "대체 뭐라고 써있는 거야..."
-    play sound "sfx hwing.ogg"
+    #play sound "sfx hwing.ogg"
     s "대체 뭐라고 써있는 거야... {fast}어?"
 
     s "'별이는 귀여운 구석이 있다니까'...?"
