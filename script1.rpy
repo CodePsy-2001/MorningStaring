@@ -58,13 +58,13 @@ label ch1_1:
     n "뭐?{w} 푸흣... 허니, 나는 밥을 먹지 않는데?"
     n "굳이 말하자면 초당 《수천만 테라와트》를 소비하고 있긴 하지만 말야."
     n "너무 그렇게 놀랄 것 없어요, 새벽씨. 나 같은 천재라면 이 정도는 소모하는 법이니까."
-    play sound "sfx cowbell.mp3"
+    #play sound "sfx cowbell.mp3"
     s "그그그그렇겠네!{w} 내가 바보같은 질문을 했어! 신경쓰지 마!"
     "얼굴이 화끈거려서 제대로 대화할 수조차 없었다."
     "손톱이 손바닥 안으로 파고들 정도로 주먹을 꽉 쥐고서야, 겨우 진정이 되려고 했으니까..."
     s "저기, 너... 이름이 DI...? 랬던가. 무슨 뜻이야?"
     n "아, 그거? 음..."
-    play sound "sfx boing.ogg"
+    #play sound "sfx boing.ogg"
     n "무슨 뜻이지...?"
     s "아, 저, 저기! 모르면 안 알려줘도 되는데!"
     n "잠깐만 있어 봐. 이거 찾아봐도 안 나오네."
@@ -84,39 +84,39 @@ label ch1_1:
     s "내가 바라던 차도남 스타일...."
     play sound "sfx swing2.ogg"
     n "뭐라고, 새벽씨?"
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "아아아아아무것도 아니야!!!!" with vpunch
     n "새벽씨. 자꾸 혼잣말만 하는 건 좋지 않아."
     n "이몸 {i}에이전트 N{/i}이 모처럼 고귀한 시간을 내어주고 있잖아?"
     s "응, 그렇지? 미안..."
     n "후훗, 귀엽기는."
     s "헤...{p}어라...? 잠깐만, 너 DI 아니었어?"
-    play sound "sfx boing.ogg"
+    #play sound "sfx boing.ogg"
     n "무슨 소리지? 이몸은 내일증권의 투자 전문 인공지능, {i}에이전트 N{/i}이다만." #기울임꼴
     s "응? 내일증권...?"
     n "......"
     n "어........."
 
     stop music fadeout 0.5
-    play sound "sfx hwing.ogg"
+    #play sound "sfx hwing.ogg"
     hide n stand with Dissolve(0.25)
     n "어.........{fast} 이런 젠장!!"
     
-    play sound "sfx fanfare.mp3"
+    #play sound "sfx fanfare.mp3"
     "에이전트 N(은)는 사라졌다!{p}자괴감 287(을)를 얻었다!"
     
     s "............"
     
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "야!! 잠깐만, 어디가?!!" with vpunch
 
     s "씨...발.... 이게 뭐야...{w} 내 남친 어디갔어..."
-    play sound "sfx puck.ogg"
+    #play sound "sfx puck.ogg"
     s "씨...발.... 이게 뭐야... 내 남친 어디갔어...{fast} 내 남친 어디갔냐고!!!" with vpunch
 
     show bg_dark with Dissolve(2)
 
-    play sound ["sfx hook.mp3" , "sfx hook.mp3", "sfx metal1.ogg", "sfx metal2.ogg", "sfx kwak.ogg", "sfx uzikun.ogg", "sfx thunder.ogg"]
+    #play sound ["sfx hook.mp3" , "sfx hook.mp3", "sfx metal1.ogg", "sfx metal2.ogg", "sfx kwak.ogg", "sfx uzikun.ogg", "sfx thunder.ogg"]
     "........................" with vpunch # vpunch 여러번 하는 법 찾아보기, 소리들 동시에 빠르게 재생시키는 법 찾아보기
   
     "책상을 내리치고 키보드를 부수며 육두문자를 내뱉어도 돌아오는 건 먼지와 소음 뿐이었다."
@@ -143,7 +143,7 @@ label ch1_2:
     s "흑... 히끅... 후엥...{nw}"
     s "흑... 히끅... 후엥...{fast} 우아아아아앙!!" with vpunch
 
-    play music "bgm dailycelesta.mp3"
+    #play music "bgm dailycelesta.mp3"
     "그때였다."
     
     scene bg_computer_display with Dissolve(0.25)
@@ -193,17 +193,17 @@ label ch1_2:
     s "우..."
 
     stop music
-    play music "bgm funky.mp3"
+    #play music "bgm funky.mp3"
     s "우...{fast} 우효-옷wwwwwww 초-Lucky다제wwwwwww"
 
     "해냈다! 해냈다! 해냈어!"
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     "해냈다! 해냈다! 해냈어!{fast}\n내가 씨발!"
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     "해냈다! 해냈다! 해냈어!\n내가 씨발!{fast} 증권사 엘리트남을!"
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     "해냈다! 해냈다! 해냈어!\n내가 씨발!{fast} 증권사 엘리트남을!{fast} 꼬셨다!"
-    play sound "sfx thunder.ogg"
+    #play sound "sfx thunder.ogg"
     "해냈다! 해냈다! 해냈어!\n내가 씨발!{fast} 증권사 엘리트남을! 꼬셨다!{fast} 씨발년들아아아아아악" with vpunch
 
     "가슴이 터질 것 같아! 이게 그 망할 인싸년들이 느끼던 사랑의 환희인가. 젠장... 이것땜에 맨날 남자들로 시시덕댔던 거냐구."
@@ -273,7 +273,7 @@ label ch1_3:
     n "오, 그건 누가 작곡한 거지?{w} 제목에서부터 현대인의 가슴아픈 고뇌가 느껴지는걸."
     s "그, 일본 작곡가인데... 어...{w}{cps=*2} 사실 내가 좋아하는 부분은 생명이여 불타오르라!! 라면서 맨 마지막에 샤우팅하는 부분이야. 그러면서 보컬로이드 캐릭터 눈에 화염이 올라오는게 그게 정말 너무 멋져서..."
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     n "자기자기 잠깐만!" with vpunch
 
     n "그게 뭐야. 고작 애니메이션 캐릭터가 사춘기 소녀들이나 좋아할법한 대사를 내뱉다가 사라지는 내용인가?"
@@ -293,12 +293,12 @@ label ch1_3:
     s "필요 없어! 난 너랑 친해지고 싶어서 이야기를 나누는 건데, 넌 도대체 뭐야?!"
     n "자기, 조금만 진정해봐. {i}캄 다운(Calm Down).{/i}"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "인싸새끼들이랑 대화하기 싫다고!" with vpunch
 
     s "너만이라도 나의 편안한 친구가 되어줄 순 없는거야? 대체 너가 할 수 있는게 뭔데?" with vpunch
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "이씨... 저리 꺼져!" with vpunch
     n "이런...... 어쩔 수 없군."
 
@@ -363,16 +363,16 @@ label ch1_4:
     n "......"
     n "잘 다녀와!"
 
-    play sound "sfx kwak.ogg"
+    #play sound "sfx kwak.ogg"
     s "야, 잠깐!! 돈 어디서 난 거야!" with vpunch
     n "레이디, 그런 건 신경쓰지 말라구."
     n "김비서, 얼른 그녀를 태워다 줘. 부드러운 운행 부탁해. 최고급 다이아몬드를 다루듯... 알지?"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "말하기 전까진 안 탈거거든!" with vpunch
     n "후훗, 부끄럼쟁이군. 그냥 고맙게 생각하고 타보는 건 어때?"
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "너같으면 타겠냐!!" with vpunch
     n "자기, 너무 그러지 말구."
     n "자기가 좋아하는 딸기향 방향제도 준비해뒀는걸?"
@@ -390,7 +390,7 @@ label ch1_4:
     # 한 팔 내밀면서 지시
     n "김비서, 흠집 하나 남지 않도록 소중히 다뤄. 명령이다."
 
-    play sound "sfx punch.ogg"
+    #play sound "sfx punch.ogg"
     s "애초에 니 비서도 아니잖아!" with vpunch
     s "니가 돈을 내야 니 비서지! 미친놈아!"
 

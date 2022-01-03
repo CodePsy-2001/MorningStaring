@@ -1113,7 +1113,7 @@ label ch2_5:
 
     s "으응, 고마워."
 
-    d baisc "저어, 누나."
+    d basic "저어, 누나."
 
     s "응, 말해."
 
@@ -1327,13 +1327,13 @@ label ch2_5:
 #챕터 6 - 진심 타임
 label ch2_6:
 
-    jump ch_7
+    jump ch2_7
 
 #챕터 7 - 엔딩 분기점
 label ch2_7:
 
     scene bg_dark with Dissolve(1.0)
-    play music "bgm dailtcelesta.mp3"
+    #play music "bgm dailtcelesta.mp3"
     "......"
 
     "이제 이런 건 아무 의미 없다."
@@ -1365,6 +1365,8 @@ label ch2_7:
     s "하하하하하하하하하하하하하하하하하!!!!!!" with vpunch
 
     s "하......"
+    
+    s "......"
 
     s "씨발."
 
