@@ -3,7 +3,7 @@
 #캐릭터 정의
 define d = Character('DI', image = 'di')
 init python:
-    diheart = 5 #DI 호감도
+    diheart = 0 #DI 호감도
 
 #DI 이미지 위치 정의
 
